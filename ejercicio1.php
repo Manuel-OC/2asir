@@ -1,7 +1,7 @@
 <?php
 
-	$a = 2;
-	$b = 3;
+	$a = $_POST['numero1'];
+	$b = $_POST['numero2'];
 	Visualizar(Proceso($a,$b));
 
 	function Proceso ($a,$b){
